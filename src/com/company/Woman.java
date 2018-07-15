@@ -7,8 +7,8 @@ package com.company;
 public class Woman extends Human {
     Human woman = new Human();
 
-    public Woman(boolean sex, String name, String surname, float growth, float weight) {
-        super();
+    public Woman(boolean sex, String name, String surname, float growth, float weight, Human woman) {
+        super(sex, name, surname, growth, weight);
         this.woman = woman;
     }
 
