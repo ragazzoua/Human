@@ -5,7 +5,7 @@ package com.company;
  */
 
 public class Woman extends Human {
-    Human woman = new Human();
+    Human woman = new Human(false);
 
     public Woman(boolean sex, String name, String surname, float growth, float weight, Human woman) {
         super(sex, name, surname, growth, weight);
@@ -19,6 +19,4 @@ public class Woman extends Human {
     private Human born() {
         return new Human();
     }
-
-
 }
