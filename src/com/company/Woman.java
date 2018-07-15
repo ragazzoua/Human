@@ -15,8 +15,8 @@ public class Woman extends Human {
     public Woman() {
     }
 
-    public Woman born() {
-    return this;
+    public Human born() {
+    return new Human();
     }
 
 
