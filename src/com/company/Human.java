@@ -53,21 +53,6 @@ public class Human {
         return new Human();
     }
 
-    Scanner scanner = new Scanner(System.in);
-
-
-    public void isPerson(boolean sex, String name, String surname, float growth, float weight) {
-        for (int i = 0; i < 2; i++) {
-            System.out.println("Введите данные для особи");
-
-            System.out.println("Sex " + sex);
-            scanner.nextLine();
-            System.out.println("Name" + name);
-        }
-
-
-    }
-
     public void isPerson() {
 
         System.out.println("Введите данные для первой особи");
