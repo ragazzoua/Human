@@ -69,25 +69,48 @@ public class Human {
     }
 
     public void isPerson() {
-        for (int i = 0; i < 1; i++) {
-            System.out.println("Введите данные для двух особей");
-            Scanner scanner = new Scanner(System.in);
-            System.out.println("Sex ");
-            boolean sex = scanner.nextBoolean();
-            System.out.println("Sex " + sex);
-            System.out.println("Name ");
-            String name = scanner.next();
-            System.out.println("Name " + name);
-            System.out.println("Surname ");
-            String surname = scanner.next();
-            System.out.println("Surname " + surname);
-            System.out.println("Growth ");
-            float growth = scanner.nextFloat();
-            System.out.println("Growth " + growth);
-            System.out.println("Weight ");
-            float weight = scanner.nextFloat();
-            System.out.println("Weight " + weight);
-        }
+
+        System.out.println("Введите данные для первой особи");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Sex ");
+        boolean sex = scanner.nextBoolean();
+        System.out.println("Sex " + sex);
+        System.out.println("Name ");
+        String name = scanner.next();
+        System.out.println("Name " + name);
+        System.out.println("Surname ");
+        String surname = scanner.next();
+        System.out.println("Surname " + surname);
+        System.out.println("Growth ");
+        float growth = scanner.nextFloat();
+        System.out.println("Growth " + growth);
+        System.out.println("Weight ");
+        float weight = scanner.nextFloat();
+        System.out.println("Weight " + weight);
+
+
+    }
+
+    public void isSecondPerson() {
+
+        System.out.println("Введите данные для второй особи");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Sex ");
+        boolean sex = scanner.nextBoolean();
+        System.out.println("Sex " + sex);
+        System.out.println("Name ");
+        String name = scanner.next();
+        System.out.println("Name " + name);
+        System.out.println("Surname ");
+        String surname = scanner.next();
+        System.out.println("Surname " + surname);
+        System.out.println("Growth ");
+        float growth = scanner.nextFloat();
+        System.out.println("Growth " + growth);
+        System.out.println("Weight ");
+        float weight = scanner.nextFloat();
+        System.out.println("Weight " + weight);
+
 
     }
 
