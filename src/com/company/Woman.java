@@ -6,13 +6,17 @@ package com.company;
 
 public class Woman extends Human {
     Human woman = new Human();
-    Human newHuman = new Human();
+
+    public Woman(boolean sex, String name, String surname, float growth, float weight) {
+        super();
+        this.woman = woman;
+    }
 
     public Woman() {
     }
 
-    public Human born() {
-        return newHuman;
+    public Woman born() {
+    return this;
     }
 
 

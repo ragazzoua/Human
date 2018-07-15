@@ -10,32 +10,35 @@ public class Human {
     private String surname;
     private float growth;
     private float weight;
-    private boolean conversation;
-    private boolean society;
-    private boolean time;
+
+
     private int relations;
 
     public Human() {
     }
 
-    public boolean say() {
-        if (conversation = true) {
+    public Human(boolean sex, String name, String surname, float growth, float weight) {
+
+    }
+
+    public boolean say(boolean conversation) {
+        if (conversation == true) {
             return true;
         } else {
             return false;
         }
     }
 
-    public boolean societyYes() {
-        if (society = true) {
+    public boolean societyYes(boolean society) {
+        if (society == true) {
             return true;
         } else {
             return false;
         }
     }
 
-    public boolean spentTime() {
-        if (time = true) {
+    public boolean spentTime(boolean time) {
+        if (time == true) {
             return true;
         } else {
             return false;
