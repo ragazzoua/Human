@@ -99,4 +99,13 @@ public class Human {
 
     }
 
+    public Human testsovmestimost(Human man, Human woman) {
+        if (man.weight > woman.weight) {
+            return new Human();
+        }
+        else {
+            return  null;
+        }
+
+    }
 }

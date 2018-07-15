@@ -15,4 +15,11 @@ public class Man extends Human {
         super(sex, name, surname, growth, weight);
         this.man = man;
     }
+
+    @Override
+    public String toString() {
+        return "Man{" +
+                "man=" + man +
+                '}';
+    }
 }

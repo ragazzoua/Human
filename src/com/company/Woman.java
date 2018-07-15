@@ -24,5 +24,10 @@ public class Woman extends Human {
         return new Human();
     }
 
-
+    @Override
+    public String toString() {
+        return "Woman{" +
+                "woman=" + woman +
+                '}';
+    }
 }
