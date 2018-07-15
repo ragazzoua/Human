@@ -12,11 +12,12 @@ public class Woman extends Human {
         this.woman = woman;
     }
 
-    public Woman() {
+    public Woman(Human woman) {
+        this.woman = woman;
     }
 
-    public Human born() {
-    return new Human();
+    private Human born() {
+        return new Human();
     }
 
 
